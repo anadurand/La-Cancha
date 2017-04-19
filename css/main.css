@@ -1,0 +1,67 @@
+*{
+  box-sizing: border-box;
+}
+
+.caja-1{
+  position: relative;
+  width: 90%;
+  height: 600px;
+  background-color: #39ac39;
+  margin: 0 auto;
+}
+.caja2{
+  position: absolute;
+  border: solid 1px white;
+  width: 90%;
+  height: 90%;
+  margin: 2.5% 5%;
+}
+.caja3{
+  position: absolute;
+  border: solid 1px white;
+  width: 10%;
+  height: 35%;
+}
+#right{
+  top: 33%;
+  left: 5%;
+}
+#left{
+  top: 33%;
+  right: 5%;
+}
+.caja4{
+  position: absolute;
+  border: solid 1px white;
+  border-radius: 50%;
+  width: 10%;
+  height: 20%;
+  top: 40%;
+  left: 45%;
+}
+.pelota{
+  position: absolute;
+  background-color: white;
+  border: solid 1px white;
+  border-radius: 50%;
+  width: 1.5%;
+  height: 3%;
+}
+#ball1{
+  left: 14%;
+  top: 33%;
+}
+#ball2{
+  right: 14.8%;
+  bottom: 32%;
+}
+#ball3{
+  top: 20%;
+  left: 46%;
+}
+.caja5{
+  position: absolute;
+  bottom: 0;
+  right: 1%;
+  font-weight: bold;
+}
